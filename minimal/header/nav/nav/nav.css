@@ -1,0 +1,48 @@
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-top: 30px;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+nav .blog {
+  color: crimson;
+}
+nav i {
+  display: block;
+}
+nav .ikonka {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    padding-top: 20px;
+  }
+  nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  nav .blog {
+    color: crimson;
+  }
+}
+@media (max-width: 600px) {
+  nav {
+    padding-top: 20px;
+  }
+  nav ul {
+    display: none;
+    gap: 20px;
+  }
+  nav .blog {
+    color: crimson;
+  }
+  nav .ikonka {
+    display: flex;
+  }
+}/*# sourceMappingURL=nav.css.map */
